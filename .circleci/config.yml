@@ -2,10 +2,11 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2
-
-jobs:
-  build:
+version: 2.1
+orbs:
+  node: circleci/node@1.1
+jobs: ssss
+  build: test
     docker:
       - image: googleapis/nox:0.17.0
 
